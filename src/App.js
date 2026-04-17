@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import MovieList from "./components/MovieList";
 import Modal from "./components/Modal";
 
-const API_KEY = "db14db6ed12400fbc32e078915694a41";
+const API_KEY = process.env.REACT_APP_TMDB_KEY;
 
 function App() {
   const [movie, setMovie] = useState("");
