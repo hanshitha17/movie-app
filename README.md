@@ -39,11 +39,13 @@ This project uses the TMDB (The Movie Database) API to fetch movie data.
 ```bash
 git clone https://github.com/your-username/movie-app.git
 cd movie-app
+```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
+```
 
 ### 3. Add API key
 
@@ -51,8 +53,10 @@ Create a `.env` file in the root directory and add:
 
 ```bash
 REACT_APP_TMDB_KEY=your_api_key_here
+```
 
 ### 4. Run the app
 
 ```bash
 npm start
+```
